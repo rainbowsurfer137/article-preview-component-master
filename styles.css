@@ -5,6 +5,7 @@
   --gray-400: #9daec2;
   --gray-500: #6e8098;
   --gray-900: #48556a;
+  --white: #fff;
 }
 
 *,
@@ -28,7 +29,7 @@ h1 {
   color: var(--gray-900);
   font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.016rem;
   line-height: 130%;
   padding-bottom: 1.5rem;
 }
@@ -64,10 +65,9 @@ main {
   max-width: 20.44rem;
   max-height: 33.625rem;
   position: relative;
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 0.625rem;
   box-shadow: 0rem 2.5rem 2.5rem -0.625rem rgba(201, 213, 225, 0.5);
-  overflow: visable;
 }
 
 .img-wrapper {
@@ -156,10 +156,6 @@ main {
   padding: 0.75rem 2rem;
 }
 
-.footer .share-menu {
-  display: none;
-}
-
 .footer.active .avatar-wrapper,
 .footer.active .byline {
   display: none;
@@ -179,12 +175,11 @@ main {
 
 .icon-wrapper svg {
   fill: var(--gray-500);
-  transition: fill 0.3s ease;
 }
 
 .icon-wrapper:hover svg,
 .footer.active .icon-wrapper svg {
-  fill: #fff;
+  fill: var(--white);
 }
 
 .tooltips-menu {
@@ -222,11 +217,11 @@ main {
   display: flex;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .card {
     flex-direction: row;
-    max-width: 608px;
-    max-height: 364px;
+    max-width: 38rem;
+    max-height: 22.75rem;
   }
 
   .img-wrapper {
@@ -264,7 +259,7 @@ main {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 75rem) {
   .card {
     flex-direction: row;
     max-width: 45.625rem;
@@ -276,7 +271,7 @@ main {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 48rem) {
   .tooltips-menu {
     display: none !important;
   }
