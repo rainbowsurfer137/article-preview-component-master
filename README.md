@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.png)
+![images/screenshot.png](images/screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [](https://rainbowsurfer137.github.io/article-preview-component-master/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-article-preview-card-with-tooltip-using-javascript-toggle-K7ZFQsmbp2]()
+- Live Site URL: [https://rainbowsurfer137.github.io/article-preview-component-master/](https://rainbowsurfer137.github.io/article-preview-component-master/)
 
 ## My process
 
